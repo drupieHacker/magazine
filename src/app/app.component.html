@@ -1,6 +1,21 @@
-<div style="text-align:center">
-  <a routerLink="/conciertos">Conciertos</a>  
-  <div>
-    <router-outlet></router-outlet>
-  </div>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <!-- enlaces -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a  class="nav-link" routerLink="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link" routerLink="/conciertos">conciertos</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link" routerLink="/deportes">Deportes</a>
+    </li>
+    <li class="nav-item">
+      <a  class="nav-link" routerLink="/recorridos">Recorridos</a>
+    </li>            
+  </ul>
+
+</nav>  
+<div>
+  <router-outlet></router-outlet>
 </div>
